@@ -1,0 +1,18 @@
+.cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.cartlist{
+    color: black;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 10px;
+    width: 70%;
+}

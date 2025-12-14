@@ -1,0 +1,11 @@
+.products{
+    /* //background-color: darkslategray; */
+    /* make the home area take available space and center its contents */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 70%;
+    margin:10px auto;
+    padding: 20px
+
+}

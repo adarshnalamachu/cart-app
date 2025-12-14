@@ -1,0 +1,30 @@
+.pricerow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.but{
+    padding: 0 10px !important;
+    height: 30px;
+    align-self: center;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.rembut{
+    padding: 0 10px !important;
+    height: 30px;
+    align-self: center;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

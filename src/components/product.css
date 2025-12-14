@@ -1,0 +1,36 @@
+.proimg{
+    width: 200px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.product{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.pricebtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.addbtn{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: lightblue
+}
+
+.addbtn:hover{
+    box-shadow: 0 4px 8px 0 black;
+}
