@@ -13,9 +13,9 @@ function Cart() {
         <Navbar options={[{name:'Home',link:'/'},{name:'Wishlist',link:'/'}]}/>
         <div className='cart'> 
         <div className='items'>
-          {cartItems?.map((item)=>(
+          {cartItems.length ? cartItems?.map((item)=>(
             <CartProduct cartitem={item}></CartProduct>
-          ))}
+          )) : <h2>Your cart is empty</h2>}
         </div>
         <div className='bill'>
         </div>
