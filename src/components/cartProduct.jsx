@@ -22,7 +22,7 @@ function CartProduct({cartitem}) {
   return (
     <div>
         <h2>{cartitem?.title}</h2>
-        <img className='proimg' src={cartitem?.images[0]}></img>
+        <img className='proimg' src={Array.isArray(cartitem?.images) && cartitem.images.length > 0 ? cartitem.images[0] : ''} alt={`img of ${cartitem?.title || 'product'}`} />
         <p>{cartitem?.description}</p>
         <div className='pricerow'>
             <div className='quantity'>
