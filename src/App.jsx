@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Home from './components/home'
+import Home from './components/Home'
 import { Route, Routes } from 'react-router-dom'
-import Cart from './components/cart'
+import Cart from './components/Cart'
 import Providers from './redux/providers'
 
 function App() {
